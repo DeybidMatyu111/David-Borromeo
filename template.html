@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1 | David Borromeo</title>
+  <link rel="icon" href="/images/logo.svg" type="image/svg">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="top-bar">
+        <div class="logo">
+          <img src="images/logo.svg" alt="Logo">
+          <a href="/main.html">David Borromeo</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/projects.html" class="active">Projects</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+          <span class="separator"></span>
+          <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider"></span>
+          </label>
+        </nav>
+        <div class="right-nav">
+          <label class="switch">
+            <input type="checkbox" id="darkModeToggle1">
+            <span class="slider"></span>
+          </label>
+          <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="sidebar-overlay"></div>
+  <aside class="sidebar">
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/projects.html">Projects</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <section class="project">
+      <div class="container">
+        <img class="cover-photo" src="" alt="Project cover photo">
+
+        <div class="content">
+          <h2>Project Title</h2>
+          <small>Project Meta</small>
+          <p>Project description...</p>
+
+          <div class="details-grid">
+            <!-- Filled by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem">
+      <div class="container">
+        <div class="content">
+          <h2>Problem statement</h2>
+          <p>Problem content...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison">
+      <div class="container">
+        <div class="content">
+          <h2>Quick Comparison</h2>
+          <p>Comparison description...</p>
+        </div>
+
+        <div class="image-container">
+          <img src="" alt="Before" class="image-before">
+          <img src="" alt="After" class="image-after">
+          <div class="label label-before">Before</div>
+          <div class="label label-after">After</div>
+          <div class="slider-handle"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+      <div class="container">
+        <div class="content">
+          <h2>MOCKUPS</h2>
+        </div>
+        <div class="gallery-grid">
+          <!-- Filled by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <span class="close-btn">&times;</span>
+      <span class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></span>
+      <span class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></span>
+      <div>
+        <img class="lightbox-content" id="lightbox-image">
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+  <script src="projects-data.js"></script>
+  <script src="project-loader.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
