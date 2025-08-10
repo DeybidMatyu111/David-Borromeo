@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const project = projectsData[projectId];
   
   // Load content into template
-  document.title = `${project.title} | Your Portfolio`;
+  document.title = `${project.title} | David Borromeo`;
   
   // Hero Section
   document.querySelector('.cover-photo').src = `/images/${projectId}-cover.jpg`;
