@@ -7,12 +7,13 @@ const projectsData = {
       category: "web",
       tags: ["UI/UX Design", "Redesign"],
       description: "Redesign Concept for PhilHealth Member Portal",
-      image: "/images/philhealth-card.webp",
-      link: "/template.html?id=philhealth",
+      image: "/images/philhealth-card.jpg",
+      link: "/view/template.html?id=philhealth",
     },
     // Add more web projects...
   ],
   uiux: [
+    /*
     {
       id: 2,
       title: "Mobile App Dashboard",
@@ -20,11 +21,13 @@ const projectsData = {
       tags: ["Mobile", "Dashboard"],
       description: "User dashboard for fitness tracking app",
       image: "/images/philhealth-after.png",
-      link: "/template.html?id=philhealth",
+      link: "/view/template.html?id=philhealth",
     },
     // Add more UI/UX projects...
+    */
   ],
   graphic: [
+    /*
     {
       id: 3,
       title: "Brand Identity",
@@ -32,8 +35,9 @@ const projectsData = {
       tags: ["Logo", "Branding"],
       description: "Complete brand identity package",
       image: "/images/philhealth-card.webp",
-      link: "/template.html?id=philhealth",
+      link: "/view/template.html?id=philhealth",
     },
     // Add more graphic projects...
+    */
   ],
 };

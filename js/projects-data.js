@@ -9,17 +9,17 @@ const projectsData = {
     "details": [
       { "label": "Project Type", "value": "UI/UX Design" },
       { "label": "Timeline", "value": "1 week" },
-      { "label": "Role", "value": "Lead Designer" },
-      { "label": "Results", "value": "+35% conversion rate" }
+      { "label": "Status", "value": "Finished" },
+      { "label": "Result", "value": "Modern look & clear form validation" },
     ],
     "sections": {
       "problem": {
         "title": "PROBLEM STATEMENT",
-        "content": "The existing PhilHealth portal had poor usability with a 78% drop-off rate during member registration. Users struggled with complex navigation and unclear benefit information."
+        "content": "The existing PhilHealth Member Portal has issues of inconsistent spacing, font-hierarchy, and poor copywriting."
       },
       "comparison": {
         "title": "QUICK COMPARISON",
-        "description": "Complete overhaul of the interface focusing on clear information hierarchy and streamlined workflows.",
+        "description": "The comparison of existing PhilHealth Member Portal versus redesign concept.",
         "images": {
           "before": "/images/philhealth-before.png",
           "after": "/images/philhealth-after.png"
@@ -27,20 +27,20 @@ const projectsData = {
       },
       "gallery": [
         {
-          "image": "/images/philhealth-card.png",
-          "description": "Dashboard View"
+          "image": "/images/philhealth-desktop.webp",
+          "description": "Desktop Mockup"
         },
         {
-          "image": "/images/philhealth-after.png",
-          "description": "Claims Processing"
+          "image": "/images/philhealth-tablet.webp",
+          "description": "Tablet Mockup"
         },
         {
-          "image": "/images/philhealth-cover.jpg",
-          "description": "Mobile Responsive"
+          "image": "/images/philhealth-mobile.webp",
+          "description": "Mobile Mockup"
         }
       ],
       "prototype": {
-        "link": "https://www.figma.com/proto/examplephilhealth"
+        "link": "https://www.figma.com/design/lJ9ROQK2memBk8tgGNBoB2/Philhealth?m=auto&t=eMALqIyBrmcATBK6-6"
       }
     }
   },
