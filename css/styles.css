@@ -497,7 +497,7 @@ input:checked+.slider:before {
 
 .image-container {
   flex: 1;
-  display: flex;
+  justify-content: center;
 }
 
 .image-container img {
@@ -771,7 +771,7 @@ footer {
 }
 
 .contacts .container {
-  padding-top: 50px;
+  padding: 50px 0;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -798,17 +798,25 @@ footer {
 }
 
 .social-icons {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 8px;
 }
 
-.social-icons div {
+.social-icons1 {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.social-icons div,
+.social-icons1 div {
   display: flex;
   gap: 24px;
 }
 
-.social-icons a {
+.social-icons a,
+.social-icons1 a {
   width: 48px;
   height: 48px;
   display: flex;
@@ -1019,7 +1027,8 @@ input[type="submit"]:disabled {
     display: none;
   }
 
-  .hero-text h2 {font: fallback;
+  .hero-text h2 {
+    font: fallback;
     font-size: var(--h2-text);
   }
 
@@ -1092,6 +1101,14 @@ input[type="submit"]:disabled {
 
   .skillset-container {
     flex-direction: row;
+  }
+
+  .social-icons {
+    display: flex;
+  }
+
+  .social-icons1 {
+    display: none;
   }
 
 }
